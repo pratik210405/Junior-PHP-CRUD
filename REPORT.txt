@@ -1,0 +1,14 @@
+WEEK 1 INTERNSHIP REPORT
+Project: Basic PHP CRUD Application
+
+This project was developed as a practical PHP and MySQL CRUD application. The main purpose of the project is to demonstrate how a backend application can create, read, update, and delete records from a MySQL database.
+
+The application uses PHP for server-side programming and MySQL for data storage. PDO is used for database connectivity and prepared statements are used for database queries. This approach helps keep database operations organized and reduces the risk of SQL injection. The application contains separate pages for adding and editing records, while the main page displays all records in a responsive table.
+
+The Create operation allows a new user record to be entered with name, email, phone number, and course. The Read operation retrieves records from MySQL and displays them in the application. The Update operation allows existing records to be modified. The Delete operation removes a selected record after a JavaScript confirmation prompt.
+
+Basic validation has been added for required fields, email format, and phone number format. Error and success messages are displayed to make the application easier to use. The interface is responsive so that the main table and forms can be used on smaller screens.
+
+Through this task, I practiced PHP syntax, MySQL database design, PDO, prepared statements, HTML forms, CSS responsive design, and basic JavaScript interaction. The project also helped me understand how frontend forms communicate with backend PHP code and how CRUD operations work with a relational database.
+
+Technologies used: PHP, MySQL, PDO, HTML5, CSS3, and JavaScript.
